@@ -69,7 +69,7 @@ result:
 This Python code can split Japanese nouns separated by double-byte spaces (\u3000).
 
 
-sql query:
+SQL query:
 ```sql
 SELECT texts AS name,
         SUBSTRING_INDEX(texts, '　', 1) AS name1,
