@@ -2,7 +2,7 @@
 
 ## About
 This repository provides some sample codes for splitting Japanese nouns separated by double-byte spaces (\u3000).
-Codes are introduced in the article in Qiita [URL].
+Codes are introduced in the article in Qiita ( https://qiita.com/nnbk2k/items/e80b409678f7838cc636 ).
 If you want to split Japanese nouns separated by double-byte spaces (\u3000) such as "ほげ　ふが　ほげら太郎　42",
 this repository may provide sample codes for you.
 
