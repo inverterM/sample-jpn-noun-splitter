@@ -22,6 +22,7 @@ I wish this repository will help someone's data preprocessing.
 
 ## Samples
 
+Python codes:
 ```python
 import pandas as pd
 import japanize_matplotlib
@@ -68,7 +69,7 @@ result:
 | 2 | ほげ | ふが23 | ぴよ | ほげら花子 | 1984 |
 
 
-
+sql query:
 ```sql
 SELECT texts AS name,
         SUBSTRING_INDEX(texts, '　', 1) AS name1,
