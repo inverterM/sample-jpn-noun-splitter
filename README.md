@@ -59,14 +59,14 @@ for text in texts:
 df = pd.DataFrame(texts_splited, columns=texts_splited.keys())
 ```
 
-This code can split Japanese nouns separated by double-byte spaces (\u3000).
-
 result:
 |  | hoge | fuga | piyo | hogera | hogehoge |
 | --: | --: | --: | --: | --: | --: |
 | 0 | ほげ | ふが | None | ほげら太郎 | 42 |
 | 1 | ほげ | ふが23 | ぴよ | ほげら花子 | 1729 |
 | 2 | ほげ | ふが23 | ぴよ | ほげら花子 | 1984 |
+
+This Python code can split Japanese nouns separated by double-byte spaces (\u3000).
 
 
 sql query:
